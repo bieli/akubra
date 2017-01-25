@@ -8,7 +8,9 @@ before_install:
   - go get github.com/allegro/akubra/config
   - go get github.com/allegro/akubra/httphandler
   - go get gopkg.in/tylerb/graceful.v1
+  - go get github.com/stretchr/testify/assert
 install:
   - go get github.com/Masterminds/glide
+  - glide install
 script:
   - goveralls -service travis-ci
