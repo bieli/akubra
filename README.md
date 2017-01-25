@@ -7,7 +7,7 @@
 [Build Status Widget]: https://travis-ci.org/allegro/akubra.svg?branch=master
 [GoDoc]: https://godoc.org/github.com/allegro/akubra
 [GoDoc Widget]: https://godoc.org/github.com/allegro/akubra?status.svg
-[![Coverage Status](https://coveralls.io/repos/github/bieli/akubra/badge.svg?branch=master)](https://coveralls.io/github/bieli/akubra?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/bieli/akubra/badge.svg?branch=coveralls)](https://coveralls.io/github/bieli/akubra?branch=coveralls)
 
 
 ## Goal
