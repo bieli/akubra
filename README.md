@@ -1,11 +1,11 @@
 # Akubra
 [![Version Widget]][Version] [![Build Status Widget]][Build Status] [![GoDoc Widget]][GoDoc]
 
-[Version]: https://github.com/allegro/akubra/releases/latest
-[Version Widget]: https://img.shields.io/github/release/allegro/akubra.svg
+[Version]: https://github.com/bieli/akubra/releases/latest
+[Version Widget]: https://img.shields.io/github/release/bieli/akubra.svg
 [Build Status]: https://travis-ci.org/allegro/akubra
-[Build Status Widget]: https://travis-ci.org/allegro/akubra.svg?branch=master
-[GoDoc]: https://godoc.org/github.com/allegro/akubra
+[Build Status Widget]: https://travis-ci.org/bieli/akubra.svg?branch=coveralls
+[GoDoc]: https://godoc.org/github.com/bieli/akubra
 [GoDoc Widget]: https://godoc.org/github.com/allegro/akubra?status.svg
 [![Coverage Status](https://coveralls.io/repos/github/bieli/akubra/badge.svg?branch=coveralls)](https://coveralls.io/github/bieli/akubra?branch=coveralls)
 
