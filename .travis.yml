@@ -15,5 +15,6 @@ install:
   - go get github.com/Masterminds/glide
   - glide install
 script:
-  - goveralls -coverprofile=coverage/coverage.out -service travis-ci
-  - cat coverage/coverage.out
+  - touch coverage.out
+  - goveralls -coverprofile=coverage.out -service travis-ci
+  - cat coverage.out
