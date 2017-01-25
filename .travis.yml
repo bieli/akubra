@@ -1,7 +1,9 @@
 language: go
-
 go:
-  - 1.7
+  - 1.7.x
+  - master
+  - tip
+  - release
 before_install:
   - go get github.com/mattn/goveralls
   - go get github.com/alecthomas/kingpin
@@ -13,4 +15,5 @@ install:
   - go get github.com/Masterminds/glide
   - glide install
 script:
-  - goveralls -service travis-ci
+  - goveralls -coverprofile=coverage/coverage.out -service travis-ci
+  - cat coverage/coverage.out
