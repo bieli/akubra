@@ -9,6 +9,7 @@
 [GoDoc Widget]: https://godoc.org/github.com/bieli/akubra?status.svg
 [![Coverage Status](https://coveralls.io/repos/github/bieli/akubra/badge.svg?branch=coveralls)](https://coveralls.io/github/bieli/akubra?branch=coveralls)
 
+[![Coverage Status](https://coveralls.io/repos/github/bieli/akubra/badge.svg?branch=master)](https://coveralls.io/github/bieli/akubra?branch=master)
 
 ## Goal
 
