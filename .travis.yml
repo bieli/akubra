@@ -7,4 +7,4 @@ before_install:
 install:
   - go get github.com/Masterminds/glide
 script:
-  - $HOME/gopath/bin/goveralls -service=travis-ci
+  - goveralls -service travis-ci
