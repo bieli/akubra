@@ -4,6 +4,10 @@ go:
   - 1.7
 before_install:
   - go get github.com/mattn/goveralls
+  - go get github.com/alecthomas/kingpin
+  - go get github.com/allegro/akubra/config
+  - go get github.com/allegro/akubra/httphandler
+  - go get gopkg.in/tylerb/graceful.v1
 install:
   - go get github.com/Masterminds/glide
 script:
