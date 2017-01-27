@@ -11,12 +11,10 @@ import:
   version: ~2.2.x
 - package: github.com/mattn/goveralls
   version: master
-- package: github.com/alecthomas/kingpin
-  version: master
-- package: gopkg.in/tylerb/graceful.v1
-  version: master
-- package: github.com/stretchr/testify/assert
-  version: master
+- package: github.com/stretchr/testify
+  version: ~1.1.x
+  subpackages:
+  - assert
 
 testImport:
 - package: github.com/stretchr/testify
