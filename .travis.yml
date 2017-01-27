@@ -12,3 +12,4 @@ script:
   - touch coverage.out
   - goveralls -coverprofile=coverage.out -service travis-ci
   - cat coverage.out
+  - make test
