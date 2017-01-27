@@ -4,6 +4,11 @@ go:
   - master
   - tip
 before_install:
+  - go get -u github.com/alecthomas/kingpin		
+  - go get -u github.com/allegro/akubra/config		
+  - go get -u github.com/allegro/akubra/httphandler		
+  - go get -u gopkg.in/tylerb/graceful.v1		
+  - go get -u github.com/stretchr/testify/assert
   - go get -u github.com/mattn/goveralls
   - go get -u github.com/Masterminds/glide
 install:
