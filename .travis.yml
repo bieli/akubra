@@ -11,6 +11,7 @@ before_install:
   - go get -u github.com/stretchr/testify/assert
   - go get -u github.com/mattn/goveralls
   - go get -u github.com/Masterminds/glide
+  - go get -u github.com/deckarep/golang-set
 install:
   - glide install
 script:
